@@ -20,7 +20,7 @@ scorers =player1+ " " +  str(goal_0) + ", "+ player2 + " " + str(goal_1)
 print (scorers)
 
 # create a single string with information about who scored when in a different format
-report = f'{player1} scored in the {goal_0}nd minute {player2} scored in the {goal_1}th minute' 
+report = f'{player1} scored in the {goal_0}nd minute\n{player2} scored in the {goal_1}th minute' 
 
 
 print (report)
